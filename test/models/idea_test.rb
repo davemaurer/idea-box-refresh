@@ -7,8 +7,26 @@ class IdeaTest < ActiveSupport::TestCase
   end
 
   test 'it should be invalid without a title or body' do
-    no_title_or_body_idea = Idea.new
+    blank_idea = Idea.new
 
-    refute(no_title_or_body_idea.valid?)
+    refute(blank_idea.valid?)
+  end
+
+  test 'it should be invalid without a title' do
+    idea = Idea.new(title: 'Lord of the Ideas')
+
+    refute(idea.valid?)
+  end
+
+  test 'it should be invalid without a body' do
+    idea = Idea.new(body: 'Lies over the ocean')
+
+    refute(idea.valid?)
+  end
+
+  test 'it is valid with both a title a body' do
+    idea = Idea.new(title: 'Valid Title', body: 'Valid Body')
+
+    assert(idea.valid?)
   end
 end
