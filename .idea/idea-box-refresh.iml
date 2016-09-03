@@ -578,6 +578,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="responders (vbundled(2.3.0), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/responders-2.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/responders-2.3.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/responders-2.3.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="sass (vbundled(3.4.22), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/sass-3.4.22) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/sass-3.4.22/bin" />
