@@ -9,7 +9,6 @@ class Api::V1::IdeasControllerTest < ActionController::TestCase
 
   test 'index returns an array of records' do
     get :index, format: :json
-    json_response = JSON.parse(response.body)
 
     assert_kind_of Array, json_response
   end
