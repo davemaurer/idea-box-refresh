@@ -24,4 +24,22 @@ class BasicTemplateTest < ActionDispatch::IntegrationTest
 
     assert page.has_css? 'form.new-idea'
   end
+
+  test 'form has a text input for a new idea title' do
+    visit root_path
+
+    assert page.has_css? "form.new-idea input[type='text'].new-idea-title"
+  end
+
+  test 'form has a text input for a new idea body' do
+    visit root_path
+
+    assert page.has_css? "form.new-idea input[type='text'].new-idea-body"
+  end
+
+  test 'form has a submit button' do
+    visit root_path
+
+    assert page.has_css? "form.new-idea input[type='submit'].new-idea-submit"
+  end
 end
