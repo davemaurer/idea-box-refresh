@@ -250,6 +250,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="cliver (vbundled(0.3.2), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/cliver-0.3.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/cliver-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/cliver-0.3.2/.githooks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/cliver-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/cliver-0.3.2/.githooks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="coderay (vbundled(1.1.1), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/coderay-1.1.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/coderay-1.1.1/bin" />
@@ -268,6 +280,18 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/concurrent-ruby-1.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="database_cleaner (vbundled(1.5.3), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/database_cleaner-1.5.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/database_cleaner-1.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/database_cleaner-1.5.3/features" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/database_cleaner-1.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/database_cleaner-1.5.3/features" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -496,6 +520,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/pkg-config-1.1.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poltergeist (vbundled(1.10.0), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/poltergeist-1.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/poltergeist-1.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/poltergeist-1.10.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -768,6 +802,28 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/web-console-2.3.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="websocket-driver (vbundled(0.6.4), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/websocket-driver-0.6.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-driver-0.6.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-driver-0.6.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-driver-0.6.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-driver-0.6.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="websocket-extensions (vbundled(0.1.2), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/websocket-extensions-0.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-extensions-0.1.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/websocket-extensions-0.1.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
