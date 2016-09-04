@@ -43,4 +43,12 @@ class Api::V1::IdeasControllerTest < ActionController::TestCase
 
     assert_equal id, json_response['id']
   end
+
+  test '#create add a new idea to the database' do
+    assert_difference 'Idea.count', 1 do
+      idea = { title: 'New Idea', body: 'New Body' }
+
+      post :create, idea: idea, format: :json
+    end
+  end
 end
