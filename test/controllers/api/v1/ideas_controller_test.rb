@@ -74,4 +74,15 @@ class Api::V1::IdeasControllerTest < ActionController::TestCase
     assert_equal number_of_ideas, Idea.all.count
     assert_includes json_response['errors']['title'], "can't be blank"
   end
+
+  test '#create rejects ideas without a body' do
+    number_of_ideas = Idea.all.count
+    idea = { title: 'Ding!' }
+
+    post :create, idea: idea, format: :json
+
+    assert_response 422
+    assert_equal number_of_ideas, Idea.all.count
+    assert_includes json_response['errors']['body'], "can't be blank"
+  end
 end
