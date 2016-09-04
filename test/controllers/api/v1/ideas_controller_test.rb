@@ -94,4 +94,13 @@ class Api::V1::IdeasControllerTest < ActionController::TestCase
 
     assert_equal 'Better Title', ideas(:one).title
   end
+
+  test '#update the quality of an idea' do
+    updated_content = { quality: 'plausible' }
+
+    put :update, id: ideas(:one), idea: updated_content, format: :json
+    ideas(:one).reload
+
+    assert_equal 'plausible', ideas(:one).quality
+  end
 end
