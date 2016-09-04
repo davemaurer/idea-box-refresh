@@ -103,4 +103,13 @@ class Api::V1::IdeasControllerTest < ActionController::TestCase
 
     assert_equal 'plausible', ideas(:one).quality
   end
+
+  test '#update rejects invalid quality values' do
+    update_content = { quality: 'invalid' }
+
+    put :update, id: ideas(:one), idea: update_content, format: :json
+    ideas(:one).reload
+
+    assert_response 422
+  end
 end
