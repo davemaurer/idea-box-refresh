@@ -19,6 +19,17 @@ class DeletingIdeasTest < ActionDispatch::IntegrationTest
     end
   end
 
+  test 'delete button removes the correct idea from the page' do
+    idea_div = page.find('.idea:first-child')
+    idea_title = idea_div.find('.idea-title').text
+
+    idea_div.find('.idea-delete').click
+
+    wait_for_ajax
+
+    refute page.has_content? idea_title
+  end
+
   private
   def create_idea
     Idea.create(title: "Gone Soon", body: "Bye")
