@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a367355-aefb-492a-8df8-92b34fe6b382" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/create_idea.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/create_idea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/idea_repository.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/idea_repository.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/loading_ideas_test.rb" afterPath="$PROJECT_DIR$/test/integration/loading_ideas_test.rb" />
     </list>
     <ignored path="idea-box-refresh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <file leaf-file-name="create_idea.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/create_idea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="270">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_idea.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/create_idea.js">
+      <file leaf-file-name="deleting_ideas_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/integration/deleting_ideas_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,6 +160,7 @@
         <option value="$PROJECT_DIR$/test/integration/loading_ideas_test.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/idea_repository.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/create_idea.js" />
+        <option value="$PROJECT_DIR$/test/integration/deleting_ideas_test.rb" />
       </list>
     </option>
   </component>
@@ -434,12 +432,12 @@
       <updated>1472858026933</updated>
       <workItem from="1472858030805" duration="12893000" />
       <workItem from="1473010541414" duration="4541000" />
-      <workItem from="1473023590242" duration="8851000" />
+      <workItem from="1473023590242" duration="9228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26285000" />
+    <option name="totallyTimeSpent" value="26662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-227" y="-1177" width="1920" height="588" extended-state="0" />
@@ -826,6 +824,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/deleting_ideas_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
