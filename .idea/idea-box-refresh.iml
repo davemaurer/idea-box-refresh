@@ -406,6 +406,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="lodash-rails (vbundled(4.15.0), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/lodash-rails-4.15.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/lodash-rails-4.15.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/lodash-rails-4.15.0/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/lodash-rails-4.15.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/lodash-rails-4.15.0/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="loofah (vbundled(2.0.3), /Users/davidmaurer/practice/tutorials/idea-box-refresh/vendor/bundle/gems/loofah-2.0.3) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/loofah-2.0.3/lib" />
