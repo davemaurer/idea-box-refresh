@@ -12,6 +12,7 @@ function createIdea(event) {
   event.preventDefault();
   clearErrors();
   IdeaRepository.create(getNewIdea())
+                .then(prependIdeaToContainer)
                 .fail(renderError)
 }
 

@@ -16,4 +16,14 @@ class LoadingIdeasTest < ActionDispatch::IntegrationTest
       assert_equal Idea.count, page.find_all('.idea').count
     end
   end
+
+  test 'it adds a new idea to the page' do
+    assert_difference "page.find_all('.idea').count", 1 do
+      page.fill_in 'idea[title]', with: "Best Idea Ever"
+      page.fill_in 'idea[body]', with: "Atomize myself"
+      page.click_button 'Submit Idea'
+
+      wait_for_ajax
+    end
+  end
 end
