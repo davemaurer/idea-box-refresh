@@ -21,11 +21,11 @@ class UpdateIdeasTest < ActionDispatch::IntegrationTest
   private
 
   def create_idea
-    Idea.create(title: 'Awesome', body: 'Sauce')
+    Idea.create(title: 'Gone Soon', body: 'Bye')
   end
 
   def get_top_idea
-    page.find('.idea:first-child')
+    page.find(".idea:first-child")
   end
 
   def click_the_promote_button_on_idea(idea)

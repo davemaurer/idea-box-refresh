@@ -31,6 +31,7 @@ class DeletingIdeasTest < ActionDispatch::IntegrationTest
   end
 
   private
+
   def create_idea
     Idea.create(title: "Gone Soon", body: "Bye")
   end
