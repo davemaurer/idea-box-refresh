@@ -18,6 +18,38 @@ class UpdateIdeasTest < ActionDispatch::IntegrationTest
     assert idea.find('.idea-quality').has_content? 'Plausible'
   end
 
+  test 'clicking promote button on a new idea twice promotes its quality to genius' do
+    idea = get_top_idea
+    click_the_promote_button_on_idea(idea)
+    click_the_promote_button_on_idea(idea)
+
+    assert idea.find('.idea-quality').has_content? 'Genius'
+  end
+
+  test 'clicking promote from swill three times will not promote quality past genius' do
+    idea = get_top_idea
+    click_the_promote_button_on_idea(idea)
+    click_the_promote_button_on_idea(idea)
+    click_the_promote_button_on_idea(idea)
+
+    assert idea.find('.idea-quality').has_content? 'Genius'
+  end
+
+  test 'demoting an idea with a quality of swill has no effect' do
+    idea = get_top_idea
+    click_the_demote_button_on_idea(idea)
+
+    assert idea.find('.idea-quality').has_content? 'Swill'
+  end
+
+  test 'promoting then demoting an idea returns it to its original quality' do
+    idea = get_top_idea
+    click_the_promote_button_on_idea(idea)
+    click_the_demote_button_on_idea(idea)
+
+    assert idea.find('.idea-quality').has_content? 'Swill'
+  end
+
   private
 
   def create_idea
