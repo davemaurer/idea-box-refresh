@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a367355-aefb-492a-8df8-92b34fe6b382" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/update_idea_quality_test.rb" afterPath="$PROJECT_DIR$/test/integration/update_idea_quality_test.rb" />
-    </list>
+    <list default="true" id="8a367355-aefb-492a-8df8-92b34fe6b382" name="Default" comment="" />
     <ignored path="idea-box-refresh.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -556,12 +553,12 @@
       <updated>1472858026933</updated>
       <workItem from="1472858030805" duration="12893000" />
       <workItem from="1473010541414" duration="4541000" />
-      <workItem from="1473023590242" duration="14689000" />
+      <workItem from="1473023590242" duration="14780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32123000" />
+    <option name="totallyTimeSpent" value="32214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-227" y="-1177" width="1920" height="588" extended-state="0" />
