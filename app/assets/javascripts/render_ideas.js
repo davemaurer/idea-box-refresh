@@ -19,12 +19,12 @@ function renderIdea(idea) {
     return idea
   };
 
-  idea.rerender = function() {
+  idea.rerender = function () {
     idea.element.replaceWith(idea.render().bindEvents().element);
     return idea;
   };
 
-  idea.prependTo = function (target) {
+  idea.prependTo = function(target) {
     idea.element.prependTo(target);
     return idea
   };
